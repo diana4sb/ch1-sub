@@ -1,0 +1,88 @@
+/* reset */ 
+ 
+ 
+ html, body, div, span, applet, object, iframe, 
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+ a, abbr, acronym, address, big, cite, code, 
+ del, dfn, em, img, ins, kbd, q, s, samp, 
+ small, strike, strong, sub, sup, tt, var, 
+ b, u, i, center, 
+ dl, dt, dd, ol, ul, li, 
+ fieldset, form, label, legend, 
+ table, caption, tbody, tfoot, thead, tr, th, td, 
+ article, aside, canvas, details, embed,  
+ figure, figcaption, footer, header, hgroup,  
+ menu, nav, output, ruby, section, summary, 
+ time, mark, audio, video { 
+ 	margin: 0; 
+ 	padding: 0; 
+ 	border: 0; 
+ 	font-size: 100%; 
+ 	vertical-align: baseline; 
+ } 
+ 
+ 
+ /* all */ 
+   html  { 
+ 	font-family: 'Open Sans', Helvetica, Arial, Sans-Serif; 
+ 	-webkit-font-smoothing: antialiased 
+ 	color: #000; 
+ 	height: 100%; 
+ 	width: 100%; 
+ 	font-size: 100%; 
+   } 
+ body  { 
+ 	background: #0099cc; 
+ 	margin: 0; 
+ 	padding: 0; 
+   } 
+  
+ 
+ a  { 
+ 	color: #cc0000; 
+ 	text-decoration: none; 
+ 	font-weight: bold; 
+   } 
+
+ #container  { 
+ 	width: 960px; 
+ 	max-width: 90%; 
+ 	margin: 0 auto; 
+ 	margin-top: 100px; 
+ 	box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.1); 
+   } 
+ 
+ 
+ #temperature{ 
+ 	background: #98AFC7; 
+ 	height: 4rem; 
+ } 
+  
+ #temperature h1{ 
+ 	color: #fff; 
+ 	padding: 40px; 
+ 	font-size: 2rem; 
+ } 
+ 
+ #display{ 
+ 	background: #FFCC00; 
+ 	padding: 40px; 
+ 	font-size: 3rem
+ 	 } 
+ 
+ #display p{ 
+ 	 
+ 	margin: 0px; 
+ } 
+ 
+ 
+ #display_temperature{ 
+ 	color: #cc0000; 
+ 	font-weight: bold; 
+ } 
+ 
+ 
+ #right{ 
+ 	float: right; 
+ 	color: #cc0000; 
+ } 
